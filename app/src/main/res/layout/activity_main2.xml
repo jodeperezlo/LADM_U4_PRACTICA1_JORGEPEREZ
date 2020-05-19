@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/txtMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="MENSAJE PARA ENVIAR" />
+
+    <CheckBox
+        android:id="@+id/ckBoxMsj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="AGRADABLE" />
+
+    <Button
+        android:id="@+id/btnGuardarMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#A6E161"
+        android:fontFamily="sans-serif-black"
+        android:text="ACTUALIZAR MENSAJE"
+        android:textColor="#686464"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="NÚMERO DE TELÉFONO"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="NOMBRE DE LA PERSONA"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/ckBoxTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:fontFamily="sans-serif-medium"
+        android:text="AGRADABLE" />
+
+    <Button
+        android:id="@+id/btnGuardarTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A6E161"
+        android:fontFamily="sans-serif-black"
+        android:text="GUARDAR TELÉFONO"
+        android:textColor="#686464"
+        android:textStyle="bold" />
+
+
+    <ListView
+        android:id="@+id/listaA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
